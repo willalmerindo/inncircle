@@ -1,0 +1,87 @@
+/* Estilização da página inicial InnCircle */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+header .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #4a90e2;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .btn:hover {
+    background-color: #e1e9f6;
+}
+
+#servicos {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#servicos h2 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.servicos-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.servico {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+.servico h3 {
+    margin-bottom: 15px;
+    color: #4a90e2;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
